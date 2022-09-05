@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li{
+            list-style: none;
+        }
+
+        header {
+            width: 1000px;
+            height: 100px;
+            margin: 0 auto;
+            margin-top: 10px;
+            border: 2px solid black;
+            overflow: hidden;
+            box-sizing: border-box;
+        }
+
+        header h1 {
+            background-color: yellow;
+            width: 200px;
+            line-height: 100px;
+            float: left;
+            text-align: center;
+        }
+
+        nav {
+            float: right;
+            overflow: hidden;
+            position: relative;
+        }
+
+        nav ul {
+            overflow: hidden;
+            background-color: aliceblue;
+        }
+
+        nav ul:nth-of-type(1) li {
+            float: left;
+            padding-left: 20px;
+            background-color: yellow;
+            line-height: 30px;
+        }
+
+        nav ul:nth-of-type(2) li {
+            float: left;
+            padding-left: 20px;
+            background-color: orange;
+            line-height: 30px;
+            margin-top: 40px;
+        }
+
+        #main {
+            width: 1000px;
+            overflow: hidden;
+            margin: 10px auto;
+        }
+
+        #main section {
+            width: 700px;
+            overflow: hidden;
+            float: left;
+        }
+
+        #main section article {
+            width: 700px;
+            border: 2px solid black;
+            overflow: hidden;
+            padding: 20px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        article>h2 {
+            background-color: aliceblue;
+        }
+
+        aside {
+            width: 280px;
+            float: right;
+            overflow: hidden;
+            border: 2px solid black;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        aside .bannerbox {
+            background-color: gray;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            width: 1000px;
+            height: 50px;
+            line-height: 50px;
+            margin: 10px auto;
+            border: 2px solid black;
+            text-align: center;
+            box-sizing: border-box;
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WEB-logo</h1>
+        <nav>
+            <ul>
+                <li>mesu-1</li>
+                <li>mesu-1</li>
+                <li>mesu-1</li>
+                <li>mesu-1</li>
+            </ul>
+
+            <ul>
+                <li>manu-2</li>
+                <li>manu-2</li>
+                <li>manu-2</li>
+                <li>manu-2</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="main">
+        <section>
+            <artcle>
+                <h2>Main Article</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.    
+                </p>
+            </artcle>
+            <artcle>
+                <h2>Main Article</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </artcle>
+            <artcle>
+                <h2>Main Article</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </artcle>
+        </section>
+        <aside>
+            <h2>Right aside</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <label for="email">Mail</label>
+            <input type="email">
+            <button>mailto</button>
+            <div class="bannerbox">
+                <h2>TEXT</h2>
+                <P>banner</P>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <p>HTML5 COPYGIRHT</p>
+    </footer>
+</body>
+</html>

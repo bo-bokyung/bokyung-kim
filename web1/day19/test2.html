@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #232323;
+        }
+        .h-container {
+            width: 100px;
+            height: 100px;
+            padding: 20px;
+            position: relative;
+        }
+
+        .h-container > div {
+            position: absolute;
+        }
+
+        .left {
+            width: 20px;
+            height: 100px;
+            background-color: red;
+        }
+        .center {
+            transform: translateY(-50%);
+            top: 50%;
+            width: 60px;
+            height: 20px;
+            background-color: red;
+            
+        }
+        .right {
+            left: 80px;
+            width: 20px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="h-container">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
